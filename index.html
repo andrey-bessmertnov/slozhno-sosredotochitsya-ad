@@ -4,11 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
     <title>Сложно сосредоточиться</title>
+    <link rel="icon" href="./images/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="./images/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" />
+    <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/dark.css" />
+    <link rel="stylesheet" href="./styles/light.css" />
     <script src="./scripts/script.js"></script>
   </head>
   <body class="page">
     <header class="header decorated-zone">
+      <span class="header__rec" aria-hidden="true">rec</span>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -35,6 +45,125 @@
           </li>
         </ul>
       </nav>
+      <h1 class="header__title">Сложно сосредоточиться</h1>
+      <p class="header__subtitle title-decor">Сложно сосредоточиться</p>
     </header>
+
+    <main class="content">
+      <section class="section section_type_attention">
+        <h2 class="section__title">Сложно сосредоточиться</h2>
+        <ul class="cards">
+          <li class="card">
+            <h3 class="card__title title-decor">Не отвлекаться</h3>
+            <p class="card__text">
+              Уведомления, открытые вкладки и чужие разговоры съедают
+              внимание быстрее, чем кажется. Каждое переключение стоит
+              нескольких минут, чтобы вернуться в задачу.
+            </p>
+            <p class="card__text">
+              Начните с малого: уберите звук у мессенджеров и закройте лишние
+              вкладки —
+              <a class="card__link" href="#">что ещё помогает</a>.
+            </p>
+          </li>
+          <li class="card">
+            <h3 class="card__title title-decor">Сфокусироваться</h3>
+            <p class="card__text">
+              Одна задача за раз. Держите на столе только то, что нужно сейчас,
+              а остальное уберите в ящик или в другую папку на рабочем столе.
+            </p>
+          </li>
+          <li class="card">
+            <h3 class="card__title title-decor">Сосредоточиться</h3>
+            <p class="card__text">
+              Мозгу нужен разгон: первые десять минут сложно, дальше проще.
+              Помогите себе таймером —
+              <a class="card__link" href="#">техника помидора</a>.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section section_type_advices">
+        <h2 class="section__title">Как концентрироваться лучше</h2>
+        <ul class="cards">
+          <li class="card">
+            <h3 class="card__title card__title_style_bold title-decor">
+              Планируйте
+            </h3>
+            <p class="card__text">
+              Список из трёх дел на день работает лучше списка из тридцати:
+              мозгу проще выбрать, с чего начать.
+            </p>
+          </li>
+          <li class="card">
+            <h3 class="card__title card__title_style_bold title-decor">
+              Отдыхайте
+            </h3>
+            <p class="card__text">
+              Пятиминутная пауза каждые полчаса возвращает внимание лучше, чем
+              ещё один кофе.
+            </p>
+          </li>
+          <li class="card">
+            <h3 class="card__title card__title_style_bold title-decor">
+              Меняйте обстановку
+            </h3>
+            <p class="card__text">
+              Небольшая смена места или позы помогает мозгу «перезагрузиться»
+              без потери темпа.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="gallery">
+        <h2 class="gallery__title">Галерея</h2>
+        <figure class="gallery__item">
+          <img
+            class="gallery__image"
+            src="./images/sunset.png"
+            alt="Закат над морем"
+            loading="lazy"
+          />
+        </figure>
+        <figure class="gallery__item">
+          <img
+            class="gallery__image"
+            src="./images/ice-cream.png"
+            alt="Мороженое в рожке"
+            loading="lazy"
+          />
+        </figure>
+        <figure class="gallery__item">
+          <img
+            class="gallery__image"
+            src="./images/tape.png"
+            alt="Кассета"
+            loading="lazy"
+          />
+        </figure>
+        <figure class="gallery__item">
+          <img
+            class="gallery__image"
+            src="./images/books.png"
+            alt="Стопка книг"
+            loading="lazy"
+          />
+        </figure>
+        <figure class="gallery__item">
+          <img
+            class="gallery__image"
+            src="./images/street.png"
+            alt="Улица вечером"
+            loading="lazy"
+          />
+        </figure>
+      </section>
+    </main>
+
+    <footer class="footer decorated-zone">
+      <h2 class="footer__title">Сложно сосредоточиться</h2>
+    </footer>
   </body>
 </html>
